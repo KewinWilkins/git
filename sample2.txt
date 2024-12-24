@@ -1,0 +1,6 @@
+docker build -t python3115-trial .
+docker run -t python3115-trial
+docker tag python3115-trial cvk22
+docker push cvk22/python3115
+docker ps
+docker ps -a

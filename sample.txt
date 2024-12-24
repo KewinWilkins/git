@@ -1,0 +1,6 @@
+docker build -t html-docker-trial .
+docker run -d -p 8081:80 html-docker-trial
+docker tag html-docker-trial cvk22/html-docker
+docker push cvk22/html-docker
+docker ps
+docker ps -a
